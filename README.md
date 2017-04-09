@@ -6,7 +6,7 @@ pyserialを使ってArduinoとシリアル通信ができます
 まだそれだけ
 
 ## Usage
-###Install
+### Install
 ```
 git clone git@github.com:ahuglajbclajep/kuso-arduino-button.git
 cd kuso-arduino-button
@@ -15,7 +15,7 @@ python3 main.py
 ```  
 and Arduino setup.
 
-###Run
+### Run
 ```
 python3 main.py -p COM3 # ポートの指定
 python3 main.py -r 9600 # 転送レートの指定
