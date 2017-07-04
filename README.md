@@ -33,5 +33,5 @@ python3 main.py -s # 使用するポートを表示
 4. Push to the branch  
 5. Create new Pull Request
 
-## Licence
+## License
 [MIT](LICENSE)
