@@ -1,37 +1,28 @@
 # kuso-arduino-button
-PythonとかPyCharmとかArduinoとかの練習
 
-## Description
-pyserialを使ってArduinoとシリアル通信ができます  
-まだそれだけ
+[pyserial](https://pypi.org/project/pyserial/) を使って Arduino とシリアル通信をする例。
 
-## Usage
-### Install
+## 使い方
+
+1. `pip install -r requirements.txt`
+2. [画像](arduino/wiring.jpg) を参考に配線
+3. USB ケーブルで Arduino と PC をつなぐ
+4. `python3 main.py -p COM3`
+5. ボタンを押す
+
+```sh
+$ python3 main.py -h
+usage: main.py [-h] [-p PORT] [-r RATE] [-s]
+
+Arduinoとシリアル通信をします
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PORT, --port PORT  ポートの指定
+  -r RATE, --rate RATE  レートの指定
+  -s, --show            使用するポートを表示
 ```
-git clone git@github.com:ahuglajbclajep/kuso-arduino-button.git
-cd kuso-arduino-button
-pip install -r requirements.txt
-python3 main.py
-```  
-and Arduino setup.
-
-### Run
-```
-python3 main.py -p COM3 # ポートの指定
-python3 main.py -r 9600 # 転送レートの指定
-python3 main.py -s # 使用するポートを表示
-```
-
-## Future Releases
-* オプションで指定したものを起動するとか？
-* なにか案があれば[issues](https://github.com/ahuglajbclajep/kuso-arduino-button/issues)にどうぞ
-
-## Contribution
-1. Fork it  
-2. Create your feature branch  
-3. Commit your changes  
-4. Push to the branch  
-5. Create new Pull Request
 
 ## License
+
 [MIT](LICENSE)
