@@ -1,4 +1,4 @@
-# kuso-arduino-button
+# arduino-simple-serial-example
 
 [pyserial](https://pypi.org/project/pyserial/) を使って Arduino とシリアル通信をする例。
 
@@ -22,7 +22,3 @@ optional arguments:
   -r RATE, --rate RATE  レートの指定
   -s, --show            使用するポートを表示
 ```
-
-## License
-
-[MIT](LICENSE)
